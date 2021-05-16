@@ -68,7 +68,6 @@ function TodoForm({ todo, addTodo, toggleModal, modalOpened }) {
     return (
         <Modal
             open={modalOpened}
-            onClose={onCancel}
             aria-labelledby="simple-modal-title"
             aria-describedby="simple-modal-description"
         >

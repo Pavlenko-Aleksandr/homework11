@@ -26,7 +26,7 @@ function Todos({ list, fetchTodos, deleteTodo, toggleTodo, toggleModal, modalOpe
                     </TableBody>
                 </Table>
             </TableContainer>
-            <Button variant="contained" color="secondary" onClick={() => toggleModal(modalOpened)}>ADD</Button>
+            <Button variant="contained" color="primary" onClick={() => toggleModal(modalOpened)}>Add new todo</Button>
         </Container>
     )
 }
